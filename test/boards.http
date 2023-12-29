@@ -11,3 +11,7 @@ Content-Type: application/json
   "title": "test",
   "description": "content1111"
 }
+
+###  Get board by id
+GET http://localhost:3000/boards/qweqwe
+Content-Type: application/json
