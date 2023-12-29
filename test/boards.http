@@ -13,5 +13,20 @@ Content-Type: application/json
 }
 
 ###  Get board by id
-GET http://localhost:3000/boards/qweqwe
+GET http://localhost:3000/boards/1
 Content-Type: application/json
+
+
+###  Get board by id
+DELETE http://localhost:3000/boards/1
+Content-Type: application/json
+
+
+
+###  Patch
+PATCH http://localhost:3000/boards/601e2990-a609-11ee-acf5-3d8e94a4c47d/status
+Content-Type: application/json
+
+{
+  "status": "private"
+}
