@@ -1,0 +1,18 @@
+### Send POST request with json body
+POST http://localhost:3000/auth/signup
+Content-Type: application/json
+
+{
+  "username": "swucs2",
+  "password": "1234abc"
+}
+
+### Send POST request with json body
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "username": "swucs2",
+  "password": "1234abc"
+}
+
