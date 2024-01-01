@@ -1,6 +1,16 @@
+### Send POST request with json body
+POST http://localhost:3000/auth/signin
+Content-Type: application/json
+
+{
+  "username": "swucs2",
+  "password": "1234abc"
+}
+
 ###  Get all boards
 GET http://localhost:3000/boards
 Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InN3dWNzMiIsImlhdCI6MTcwNDA3MTUyMSwiZXhwIjoxNzA0MDc1MTIxfQ.QugF4qtfD7DG_Fac6ZOjI3QiEYUSIrPQbWtXS7CMgE0
 
 
 ### Send POST request with json body
